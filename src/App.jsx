@@ -6,10 +6,9 @@ import "./index.css";
 function App() {
   return (
     <>
-    <Card />
-    <Buttons />
-  
-  </>
+      <Buttons />
+      <Card />
+    </>
   );
 }
 export default App;
