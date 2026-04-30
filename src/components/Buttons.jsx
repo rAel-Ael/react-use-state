@@ -1,13 +1,14 @@
+import Button from 'react-bootstrap/Button';
 function Buttons() {
     return <> <div>
-            <button type="button" className="btn btn-primary">HTML</button>
-            <button type="button" className="btn btn-primary">CSS</button>
-            <button type="button" className="btn btn-primary">Javascript</button>
-            <button type="button" className="btn btn-primary">Node.js</button>
-            <button type="button" className="btn btn-primary">Express</button>
-            <button type="button" className="btn btn-primary">React</button>
+        <Button variant="primary">HTML</Button>
+        <Button variant="primary">CSS</Button>
+        <Button variant="primary">Primary</Button>
+        <Button variant="primary">Primary</Button>
+        <Button variant="primary">Primary</Button>
+        <Button variant="primary">Primary</Button>
+        <Button variant="primary">Primary</Button>
         </div>
-    
     </>
 }
 export default Buttons;
