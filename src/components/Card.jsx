@@ -6,7 +6,7 @@ function Card({
 }) {
     return <> <div className="card">
         <div className="card-body">
-            <button className={`btn ${bottoneClasse}`}>{buttonTitle}</button>
+            <button className={`btn btn-primary ${bottoneClasse}`}>{buttonTitle}</button>
             <p className="card-text">{buttonContent}</p>
         </div>
     </div>
